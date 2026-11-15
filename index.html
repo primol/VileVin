@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ville du Vin</title>
+<meta name="description" content="Referência no mercado de vinhos em função dos profissionais capacitados, atendimento exclusivo e qualidade dos rótulos oferecidos.">
+<meta name="theme-color" content="#070707">
+<meta property="og:title" content="Ville du Vin">
+<meta property="og:description" content="Referência no mercado de vinhos em função dos profissionais capacitados, atendimento exclusivo e qualidade dos rótulos oferecidos.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/lojas/itaim.webp">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/icons/favicon-96.png">
+<link rel="apple-touch-icon" href="assets/img/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Barlow:wght@400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{if(Date.now()-(+localStorage.getItem('vdv_age_ok')||0)<864e5)document.documentElement.classList.add('age-ok')}catch(e){}</script>
+</head>
+<body class="home">
+<div class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-gate__card">
+    <img class="age-gate__logo" src="assets/img/logo.svg" alt="Ville du Vin" width="210" height="46">
+    <h2 id="age-title">Você tem mais de 18 anos?</h2>
+    <p>Você precisa ter mais de 18 anos para acessar este site.</p>
+    <div class="age-gate__btns">
+      <button class="btn" type="button" data-age-yes>Sim, entrar</button>
+      <a class="btn btn--ghost" href="https://www.abrabe.org.br/responsabilidade-social/autorregulamentacao-publicitaria/">Não</a>
+    </div>
+    <small>Aprecie com moderação</small>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container--wide">
+    <a class="brand" href="index.html" aria-label="Ville du Vin — início"><img src="assets/img/logo.svg" alt="Ville du Vin" width="184" height="40"></a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="sobre.html">Sobre a VDV</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="conteudo.html">Conteúdo</a>
+      <a href="franquias.html">Franquias</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="intro" id="intro" aria-label="Abertura: a garrafa derrama o vinho que forma o nome Ville du Vin">
+  <div class="intro__sticky">
+    <canvas class="intro__canvas" aria-hidden="true"></canvas>
+    <h1 class="sr-only">Ville du Vin — loja de vinhos</h1>
+    <div class="intro__hint" aria-hidden="true"><span class="mouse"></span>Role para servir</div>
+    <p class="intro__caption intro__caption--a">Cada rótulo é como um <em>capítulo</em> de uma história…</p>
+    <p class="intro__caption intro__caption--b">…e cada vinícola, um <em>best-seller</em>.</p>
+    <div class="intro__final">
+      <p>Referência no mercado de vinhos em função dos profissionais capacitados, atendimento exclusivo e qualidade dos rótulos oferecidos.</p>
+      <div class="btns">
+        <a class="btn" href="catalogo.html">Conheça nosso catálogo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#lojas">Visite nossas lojas</a>
+      </div>
+    </div>
+    <button class="intro__skip" type="button">Pular animação <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></button>
+    <div class="intro__progress" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<section class="slider" aria-label="Destaques">
+  <article class="slide is-active">
+    <div class="slide__media"><img src="assets/img/banners/franquias-loja.webp" alt="" loading="eager"></div>
+    <div class="container--wide"><div class="slide__body">
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <h2 class="slide__title">Faça parte deste <b>novo conceito</b> em <span class="hl">franquia de vinhos!</span></h2>
+      <a class="btn" href="franquias.html">Seja um franqueado! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div></div>
+  </article>
+  <article class="slide">
+    <div class="slide__media"><img src="assets/img/banners/barris.webp" alt="" loading="lazy" style="object-position:right center"></div>
+    <div class="slide__float slide__float--bottles hide-sm"><img src="assets/img/sobre-garrafas.webp" alt="" loading="lazy"></div>
+    <div class="container--wide"><div class="slide__body">
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <h2 class="slide__title">As melhores vinícolas do mundo <span class="hl">estão aqui.</span></h2>
+      <a class="btn" href="catalogo.html">Conheça nosso catálogo! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div></div>
+  </article>
+  <article class="slide">
+    <div class="slide__media"><img src="assets/img/banners/adega.webp" alt="" loading="lazy" style="object-position:70% center"></div>
+    <div class="container--wide"><div class="slide__body">
+      <h2 class="slide__title slide__title--display">Fique <span class="hl">por dentro</span></h2>
+      <p class="slide__sub">das curiosidades sobre o mundo dos vinhos com nosso <b>Portal de Conteúdo!</b></p>
+      <a class="btn" href="conteudo.html">Conheça! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div></div>
+  </article>
+  <article class="slide">
+    <div class="slide__media"><img src="assets/img/lojas/itaim.webp" alt="" loading="lazy" style="filter:blur(2px) brightness(.7)"></div>
+    <div class="slide__polaroids hide-sm" aria-hidden="true">
+      <figure><img src="assets/img/lojas/alphaville.webp" alt="" loading="lazy"><figcaption>Shopping Iguatemi · Alphaville</figcaption></figure>
+      <figure><img src="assets/img/lojas/itaim.webp" alt="" loading="lazy"><figcaption>Itaim Bibi</figcaption></figure>
+    </div>
+    <div class="container--wide"><div class="slide__body">
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <h2 class="slide__title">Encante-se por uma <b>experiência singular</b> no universo das vinícolas.</h2>
+      <p class="slide__sub">Loja <b>Shopping Iguatemi</b> (Alphaville) · Loja <b>Itaim Bibi</b></p>
+      <a class="btn" href="#lojas">Visite nossas lojas! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div></div>
+  </article>
+  <div class="slider__ui">
+    <div class="container--wide">
+      <span class="slider__count">01 / 04</span>
+      <div class="slider__bars">
+        <button class="slider__bar" type="button" aria-label="Banner 1"><span></span></button>
+        <button class="slider__bar" type="button" aria-label="Banner 2"><span></span></button>
+        <button class="slider__bar" type="button" aria-label="Banner 3"><span></span></button>
+        <button class="slider__bar" type="button" aria-label="Banner 4"><span></span></button>
+      </div>
+      <div class="slider__arrows">
+        <button type="button" data-prev aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button type="button" data-next aria-label="Próximo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light" style="padding-block:clamp(70px,9vw,110px)">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow reveal">Os produtores mais conceituados do mundo</span>
+      <h2 class="title reveal" style="--d:.08s">Vinícolas <strong>renomadas</strong></h2>
+    </div>
+  </div>
+  <div class="reveal" style="--d:.15s">
+<div class="marquee"><div class="marquee__track"><div class="marquee__item"><img src="assets/img/vinicolas/romaneira.webp" alt="Quinta da Romaneira" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/lagarde.webp" alt="Lagarde" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/sobroso.webp" alt="Herdade do Sobroso" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/valduero.webp" alt="Valduero" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/baron.webp" alt="Baron Philippe de Rothschild" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/angelus.webp" alt="Château Angélus" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/poggio.webp" alt="Poggio" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/ravasqueira.webp" alt="Monte da Ravasqueira" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/demartino.webp" alt="De Martino" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/antichello.webp" alt="Antichello" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/vik.webp" alt="VIK" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/almaviva.webp" alt="Almaviva" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/kaiken.webp" alt="Kaiken" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/concha.webp" alt="Concha y Toro" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/mendel.webp" alt="Mendel" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/henri.webp" alt="Henri de Venoy" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/cuvelier.webp" alt="Cuvelier Los Andes" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/romaneira.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/lagarde.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/sobroso.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/valduero.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/baron.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/angelus.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/poggio.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/ravasqueira.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/demartino.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/antichello.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/vik.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/almaviva.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/kaiken.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/concha.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/mendel.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/henri.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/cuvelier.webp" alt="" loading="lazy"></div></div></div>
+<div class="marquee marquee--reverse"><div class="marquee__track"><div class="marquee__item"><img src="assets/img/vinicolas/demartino.webp" alt="De Martino" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/antichello.webp" alt="Antichello" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/vik.webp" alt="VIK" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/almaviva.webp" alt="Almaviva" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/kaiken.webp" alt="Kaiken" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/concha.webp" alt="Concha y Toro" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/mendel.webp" alt="Mendel" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/henri.webp" alt="Henri de Venoy" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/cuvelier.webp" alt="Cuvelier Los Andes" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/romaneira.webp" alt="Quinta da Romaneira" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/lagarde.webp" alt="Lagarde" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/sobroso.webp" alt="Herdade do Sobroso" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/valduero.webp" alt="Valduero" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/baron.webp" alt="Baron Philippe de Rothschild" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/angelus.webp" alt="Château Angélus" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/poggio.webp" alt="Poggio" loading="lazy"></div><div class="marquee__item"><img src="assets/img/vinicolas/ravasqueira.webp" alt="Monte da Ravasqueira" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/demartino.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/antichello.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/vik.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/almaviva.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/kaiken.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/concha.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/mendel.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/henri.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/cuvelier.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/romaneira.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/lagarde.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/sobroso.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/valduero.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/baron.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/angelus.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/poggio.webp" alt="" loading="lazy"></div><div class="marquee__item" aria-hidden="true"><img src="assets/img/vinicolas/ravasqueira.webp" alt="" loading="lazy"></div></div></div>
+  </div>
+</section>
+
+<section class="section" id="destaques">
+  <div class="container" data-rail>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow reveal">Catálogo Ville du Vin</span>
+        <h2 class="title reveal" style="--d:.08s">Produtos em <strong>destaque</strong></h2>
+      </div>
+      <div class="rail-nav reveal">
+        <button type="button" data-rail-prev aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button type="button" data-rail-next aria-label="Próximo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+    <div class="rail reveal" data-featured></div>
+    <div class="section-head" style="margin:34px 0 0;align-items:center">
+      <div class="filters__group" aria-label="Tipos de vinhos">
+        <a class="pill" href="catalogo.html?tipo=branco">Branco</a><a class="pill" href="catalogo.html?tipo=espumante">Espumante</a><a class="pill" href="catalogo.html?tipo=laranja">Laranja</a><a class="pill" href="catalogo.html?tipo=rose">Rosé</a><a class="pill" href="catalogo.html?tipo=tinto">Tinto</a>
+        <a class="pill" href="catalogo.html?pais=argentina">Argentina</a><a class="pill" href="catalogo.html?pais=chile">Chile</a><a class="pill" href="catalogo.html?pais=espanha">Espanha</a><a class="pill" href="catalogo.html?pais=franca">França</a><a class="pill" href="catalogo.html?pais=italia">Itália</a><a class="pill" href="catalogo.html?pais=portugal">Portugal</a>
+      </div>
+      <a class="btn" href="catalogo.html">Todos os produtos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--wine" style="overflow:hidden">
+  <div class="container split">
+    <div>
+      <span class="eyebrow reveal" style="color:#fff">Sobre a VDV</span>
+      <h2 class="title reveal" style="--d:.08s">Vinícolas <span style="color:#fff">selecionadas</span></h2>
+      <p class="lead reveal" style="--d:.16s;color:rgba(255,255,255,.9)">A Ville du Vin é reconhecida como referência em seu mercado de atuação, em função dos profissionais capacitados, atendimento exclusivo e qualidade dos rótulos oferecidos.</p>
+      <p class="reveal" style="--d:.22s;color:rgba(255,255,255,.85);font-style:italic;font-size:22px;max-width:46ch">“Cada rótulo é como um capítulo de uma história e cada vinícola um best-seller. Somos incansáveis na escolha minuciosa de cada produto levado ao cliente.”</p>
+      <a class="btn btn--dark reveal" href="sobre.html">Conheça a Ville du Vin <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="about-hero__bottles reveal reveal--zoom"><img src="assets/img/sobre-garrafas.webp" alt="Garrafas de vinhos do catálogo Ville du Vin" loading="lazy" width="400" height="424"></div>
+  </div>
+</section>
+
+<section class="section" id="lojas">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow reveal">Visite a Ville du Vin</span>
+        <h2 class="title reveal" style="--d:.08s">Nossas <strong>Lojas</strong></h2>
+        <p class="lead reveal mt-0" style="--d:.16s">Encante-se por uma experiência singular no universo das vinícolas.</p>
+      </div>
+    </div>
+    <div class="stores-wrap" data-stores>
+      <div class="stores">
+      <article class="store reveal" style="--d:0.0s" data-store="alphaville" tabindex="0">
+        <div class="store__img"><img src="assets/img/lojas/alphaville.webp" alt="Fachada da loja Ville du Vin Alphaville" loading="lazy" decoding="async"></div>
+        <div class="store__body">
+          <h3 class="store__name">Loja Shopping Iguatemi (Alphaville)</h3>
+          <p class="store__addr">Alameda Rio Negro, 111<br>Alphaville Industrial, Barueri/SP<br>CEP 06454-000<br>Contato (11) 99117-8801</p>
+          <div class="store__actions">
+            <a class="chip-btn chip-btn--wa" href="https://wa.me/5511991178801?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg> Compre pelo WhatsApp</a>
+            <a class="chip-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Shopping%20Iguatemi%20Alphaville%2C%20Alameda%20Rio%20Negro%2C%20111%20-%20Alphaville%20Industrial%2C%20Barueri%20-%20SP%2C%2006454-000" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg> Como chegar</a>
+          </div>
+        </div>
+      </article>
+      <article class="store reveal" style="--d:0.1s" data-store="itaim" tabindex="0">
+        <div class="store__img"><img src="assets/img/lojas/itaim.webp" alt="Fachada da loja Ville du Vin Itaim Bibi" loading="lazy" decoding="async"></div>
+        <div class="store__body">
+          <h3 class="store__name">Loja Itaim Bibi</h3>
+          <p class="store__addr">R. Leopoldo Couto de Magalhães Júnior, 490<br>Itaim Bibi, São Paulo/SP<br>CEP 04542-000<br>Contato (11) 99704-9531</p>
+          <div class="store__actions">
+            <a class="chip-btn chip-btn--wa" href="https://wa.me/5511997049531?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg> Compre pelo WhatsApp</a>
+            <a class="chip-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.%20Leopoldo%20Couto%20de%20Magalh%C3%A3es%20J%C3%BAnior%2C%20490%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004542-000" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg> Como chegar</a>
+          </div>
+        </div>
+      </article>
+      <article class="store reveal" style="--d:0.0s" data-store="recife" tabindex="0">
+        <div class="store__img"><img src="assets/img/lojas/recife.webp" alt="Fachada da loja Ville du Vin Recife" loading="lazy" decoding="async"></div>
+        <div class="store__body">
+          <h3 class="store__name">Recife</h3>
+          <p class="store__addr">Rua do Espinheiro, 559<br>Espinheiro, Recife/PE<br>CEP 52020-020</p>
+          <div class="store__actions">
+            
+            <a class="chip-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua%20do%20Espinheiro%2C%20559%20-%20Espinheiro%2C%20Recife%20-%20PE%2C%2052020-020" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg> Como chegar</a>
+          </div>
+        </div>
+      </article>
+      <article class="store reveal" style="--d:0.1s" data-store="teresina" tabindex="0">
+        <div class="store__img"><img src="assets/img/lojas/teresina.webp" alt="Fachada da loja Ville du Vin Teresina" loading="lazy" decoding="async"></div>
+        <div class="store__body">
+          <h3 class="store__name">Teresina</h3>
+          <p class="store__addr">Rua Tabelião José Basílio, 1443<br>Ininga, Teresina/PI<br>CEP 64048-504</p>
+          <div class="store__actions">
+            
+            <a class="chip-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua%20Tabeli%C3%A3o%20Jos%C3%A9%20Bas%C3%ADlio%2C%201443%20-%20Ininga%2C%20Teresina%20-%20PI%2C%2064048-504" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg> Como chegar</a>
+          </div>
+        </div>
+      </article>
+      </div>
+      <aside class="map-card reveal reveal--right" aria-label="Mapa das lojas">
+        <div class="map-card__head"><strong data-map-title>Mapa</strong><span><svg width="16" height="16" style="vertical-align:-3px;margin-right:4px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.6"/></svg><span data-map-addr></span></span></div>
+        <div class="map-tabs" role="tablist"><button type="button" role="tab" data-map-tab="alphaville" aria-selected="true">Alphaville</button><button type="button" role="tab" data-map-tab="itaim" aria-selected="false">Itaim Bibi</button><button type="button" role="tab" data-map-tab="recife" aria-selected="false">Recife</button><button type="button" role="tab" data-map-tab="teresina" aria-selected="false">Teresina</button></div>
+        <div class="map-frame"><iframe title="Mapa da loja Ville du Vin" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+        <div class="map-card__foot">
+          <a class="btn btn--sm" data-map-dir href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg> Como chegar</a>
+          <a class="btn btn--wa btn--sm" data-map-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg> WhatsApp da loja</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light" id="conteudo">
+  <div class="container">
+    <div class="portal">
+      <div class="portal__img reveal reveal--left"><img src="assets/img/portal.webp" alt="Portal de Conteúdo da Ville du Vin aberto no notebook" loading="lazy" decoding="async" width="900" height="735"></div>
+      <div>
+        <span class="eyebrow reveal">Blog Ville du Vin</span>
+        <h2 class="title reveal" style="--d:.08s">Portal de <strong>Conteúdo</strong></h2>
+        <p class="lead reveal mt-0" style="--d:.16s">Conheça mais sobre harmonização, vinícolas e tudo sobre o universo dos vinhos com os especialistas do nosso blog.</p>
+        <div class="portal__cats">
+        <div class="cat reveal" style="--d:0.0s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h6l-.4 4.8a2.6 2.6 0 0 1-5.2 0L6 2Z"/><path d="M9 10v8M6.5 18h5"/><path d="M16 2v7a2 2 0 0 0 2 2v11M20 2v7a2 2 0 0 1-2 2"/></svg><h3>Harmonização</h3><p>As melhores dicas de harmonização com todos os tipos de vinho.</p></div>
+        <div class="cat reveal" style="--d:0.08s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10c1.5 2.5 2.2 5.5 2.2 9S18.5 18.5 17 21H7c-1.5-2.5-2.2-5.5-2.2-9S5.5 5.5 7 3Z"/><path d="M5.4 8h13.2M5.4 16h13.2M12 3v18"/></svg><h3>Vinícolas</h3><p>Conheça a história das principais vinícolas do nosso catálogo.</p></div>
+        <div class="cat reveal" style="--d:0.16s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z"/></svg><h3>Curiosidades</h3><p>Atualidades do mundo da uva e seus mais derivados assuntos.</p></div>
+        </div>
+        <a class="btn reveal" href="https://www.villeduvin.com.br/blog" target="_blank" rel="noopener">Acessar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+    <div class="section-head" style="margin-top:clamp(60px,8vw,100px)">
+      <h3 class="title title--sm reveal" style="margin:0">Últimos do <strong>blog</strong></h3>
+      <a class="link-arrow reveal" href="conteudo.html">Ver todos os conteúdos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="posts" data-posts="3"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:clamp(60px,8vw,100px)">
+  <div class="container">
+    <div class="newsletter reveal">
+      <div>
+        <h2>Receba nossas novidades por e-mail</h2>
+        <p>Lançamentos, promoções e conteúdos sobre o universo dos vinhos.</p>
+      </div>
+      <form class="nl-form" novalidate>
+        <label class="sr-only" for="nl-email">Seu e-mail</label>
+        <input id="nl-email" type="email" name="email" placeholder="Seu melhor e-mail" autocomplete="email" required>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+      <p class="nl-msg" role="status"></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/grupo/gvp-branco.webp" alt="Grupo Vila Porto" width="101" height="56" loading="lazy">
+      <p>Criado em 2003, o <strong>Grupo Vila Porto</strong> atua em todo território nacional, com empresas especializadas em importação e exportação, consultoria aduaneira, logística e armazenagem.</p>
+    </div>
+    <div>
+      <h3>Menu</h3>
+      <ul class="footer-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre a VDV</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="conteudo.html">Conteúdo</a></li>
+          <li><a href="franquias.html">Franquias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Nossas lojas</h3>
+      <ul class="footer-list">
+        <li><a href="contato.html#lojas">Shopping Iguatemi (Alphaville)</a></li>
+        <li><a href="contato.html#lojas">Itaim Bibi</a></li>
+        <li><a href="contato.html#lojas">Recife</a></li>
+        <li><a href="contato.html#lojas">Teresina</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Entre em contato</h3>
+      <p><strong>Telefone:</strong> <a href="tel:+552721211400">+55 27 2121-1400</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:contato@grupovilaporto.com">contato@grupovilaporto.com</a></p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/grupo-vila-porto-oficial-14b3b6199/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4V9.75Z"/></svg></a>
+        <a href="https://www.facebook.com/grupovilaporto" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2.4V2.1L14.1 2C10.8 2 10 4.4 10 6v2.5H7.6v3.8H10V22h4v-9.7h3l.4-3.8H14Z"/></svg></a>
+        <a href="https://www.instagram.com/grupovilaporto/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="group-strip">
+    <div class="container">
+      <h3>Empresas do Grupo</h3>
+      <div class="group-logos">
+        <a href="http://vilaporto.com/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-vilaporto.webp" alt="Vila Porto International Business" loading="lazy"></a>
+        <a href="http://oficinadenegocios.srv.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-oficina.webp" alt="Oficina de Negócios" loading="lazy"></a>
+        <a href="https://www.cdlsenhoradapenha.com.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-cdl.webp" alt="CDL Senhora da Penha" loading="lazy"></a>
+        <a href="https://vilaportovinhos.com.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-vpvinhos.webp" alt="Vila Porto Vinhos" loading="lazy"></a>
+        <a href="index.html"><img src="assets/img/grupo/emp-vdv.webp" alt="Ville du Vin" loading="lazy"></a>
+        <span><img src="assets/img/grupo/emp-chefswine.webp" alt="Chef's Wine" loading="lazy"></span>
+        <span><img src="assets/img/grupo/emp-portodelivery.webp" alt="Porto Delivery" loading="lazy"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© Copyright Grupo Vila Porto - Todos os Direitos Reservados<small>Aprecie com moderação · Venda proibida para menores de 18 anos</small></div>
+</footer>
+
+<div class="wa-float">
+  <div class="wa-float__panel" role="dialog" aria-label="Compre pelo WhatsApp">
+    <h4>Compre pelo WhatsApp</h4>
+    <p>Escolha a loja e fale direto com a nossa equipe.</p>
+    <a href="https://wa.me/5511991178801?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg><span><strong>Shopping Iguatemi (Alphaville)</strong><small>(11) 99117-8801</small></span></a>
+    <a href="https://wa.me/5511997049531?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg><span><strong>Loja Itaim Bibi</strong><small>(11) 99704-9531</small></span></a>
+  </div>
+  <button class="wa-float__btn" type="button" aria-label="Compre pelo WhatsApp" aria-expanded="false"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg></button>
+</div>
+
+<script src="assets/data/produtos.js"></script>
+<script src="assets/data/blog.js"></script>
+<script src="assets/js/intro.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
