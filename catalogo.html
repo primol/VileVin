@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catálogo · Ville du Vin</title>
+<meta name="description" content="Catálogo de vinhos Ville du Vin: tintos, brancos, rosés, espumantes e laranja das melhores vinícolas da Argentina, Chile, Espanha, França, Itália e Portugal.">
+<meta name="theme-color" content="#070707">
+<meta property="og:title" content="Catálogo · Ville du Vin">
+<meta property="og:description" content="Catálogo de vinhos Ville du Vin: tintos, brancos, rosés, espumantes e laranja das melhores vinícolas da Argentina, Chile, Espanha, França, Itália e Portugal.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/lojas/itaim.webp">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/icons/favicon-96.png">
+<link rel="apple-touch-icon" href="assets/img/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Barlow:wght@400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{if(Date.now()-(+localStorage.getItem('vdv_age_ok')||0)<864e5)document.documentElement.classList.add('age-ok')}catch(e){}</script>
+</head>
+<body>
+<div class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-gate__card">
+    <img class="age-gate__logo" src="assets/img/logo.svg" alt="Ville du Vin" width="210" height="46">
+    <h2 id="age-title">Você tem mais de 18 anos?</h2>
+    <p>Você precisa ter mais de 18 anos para acessar este site.</p>
+    <div class="age-gate__btns">
+      <button class="btn" type="button" data-age-yes>Sim, entrar</button>
+      <a class="btn btn--ghost" href="https://www.abrabe.org.br/responsabilidade-social/autorregulamentacao-publicitaria/">Não</a>
+    </div>
+    <small>Aprecie com moderação</small>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container--wide">
+    <a class="brand" href="index.html" aria-label="Ville du Vin — início"><img src="assets/img/logo.svg" alt="Ville du Vin" width="184" height="40"></a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre a VDV</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="conteudo.html">Conteúdo</a>
+      <a href="franquias.html">Franquias</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="cat-hero">
+  <div class="cat-hero__bg" aria-hidden="true"></div>
+  <div class="container cat-hero__grid">
+    <div>
+      <span class="eyebrow reveal">Catálogo Ville du Vin</span>
+      <h1 class="title reveal" style="--d:.08s;font-size:clamp(52px,8vw,110px)">As melhores vinícolas do mundo <strong>estão aqui.</strong></h1>
+      <p class="lead reveal" style="--d:.16s">Explore nossos rótulos por tipo, país ou uva. Gostou de algum? Compre direto pelo WhatsApp da loja mais perto de você.</p>
+      <div class="btn-row reveal" style="--d:.22s;margin-top:26px">
+        <a class="btn" href="https://villeduvin.com.br/catalogo-vinhos-vdv-2023.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg> Baixar catálogo em PDF</a>
+        <a class="btn btn--ghost" href="#vinhos">Explorar rótulos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      </div>
+      <div class="cat-stats reveal" style="--d:.3s">
+        <div><strong data-count="235">235</strong><span>rótulos</span></div>
+        <div><strong data-count="6">6</strong><span>países</span></div>
+        <div><strong data-count="5">5</strong><span>tipos de vinho</span></div>
+      </div>
+    </div>
+    <div class="cat-hero__bottles reveal reveal--zoom"><img src="assets/img/sobre-garrafas.webp" alt="" width="400" height="424"></div>
+  </div>
+</section>
+
+<div class="filters" id="vinhos">
+  <div class="container">
+    <div class="filters__row">
+      <div class="filters__group" data-f-tipo aria-label="Tipos de vinhos"></div>
+      <label class="search"><span class="sr-only">Buscar</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Buscar vinho, uva ou país…" data-f-q autocomplete="off"></label>
+    </div>
+    <div class="filters__sub">
+      <div class="filters__group" data-f-pais aria-label="Países"></div>
+    </div>
+    <div class="filters__sub">
+      <button class="pill" type="button" data-f-prem aria-pressed="false">★ Especial Vinhos Premium</button>
+      <select class="select" data-f-sort aria-label="Ordenar">
+        <option value="destaques">Destaques primeiro</option>
+        <option value="az">Nome: A → Z</option>
+        <option value="za">Nome: Z → A</option>
+      </select>
+      <span class="result-count" data-count-result></span>
+    </div>
+  </div>
+</div>
+
+<section class="container">
+  <div class="grid-wines" data-wine-grid></div>
+  <div class="empty" data-empty hidden><strong>Nenhum rótulo encontrado</strong>Tente outra busca ou <button class="link-arrow" type="button" data-clear style="display:inline-flex">limpar os filtros</button></div>
+  <div class="load-more" data-more hidden><button class="btn btn--ghost" type="button">Carregar mais rótulos</button></div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div class="split" style="gap:30px">
+        <div>
+          <h2 class="title title--sm" style="margin:0 0 10px">Não encontrou o que procurava?</h2>
+          <p class="lead" style="color:rgba(255,255,255,.85);margin:0">Fale com nossas lojas pelo WhatsApp: a equipe ajuda você a escolher o rótulo ideal.</p>
+        </div>
+        <div class="btn-row" style="justify-content:flex-end">
+          <a class="btn btn--wa" href="https://wa.me/5511991178801?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg> Alphaville</a>
+          <a class="btn btn--wa" href="https://wa.me/5511997049531?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg> Itaim Bibi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/grupo/gvp-branco.webp" alt="Grupo Vila Porto" width="101" height="56" loading="lazy">
+      <p>Criado em 2003, o <strong>Grupo Vila Porto</strong> atua em todo território nacional, com empresas especializadas em importação e exportação, consultoria aduaneira, logística e armazenagem.</p>
+    </div>
+    <div>
+      <h3>Menu</h3>
+      <ul class="footer-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre a VDV</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="conteudo.html">Conteúdo</a></li>
+          <li><a href="franquias.html">Franquias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Nossas lojas</h3>
+      <ul class="footer-list">
+        <li><a href="contato.html#lojas">Shopping Iguatemi (Alphaville)</a></li>
+        <li><a href="contato.html#lojas">Itaim Bibi</a></li>
+        <li><a href="contato.html#lojas">Recife</a></li>
+        <li><a href="contato.html#lojas">Teresina</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Entre em contato</h3>
+      <p><strong>Telefone:</strong> <a href="tel:+552721211400">+55 27 2121-1400</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:contato@grupovilaporto.com">contato@grupovilaporto.com</a></p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/grupo-vila-porto-oficial-14b3b6199/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4V9.75Z"/></svg></a>
+        <a href="https://www.facebook.com/grupovilaporto" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2.4V2.1L14.1 2C10.8 2 10 4.4 10 6v2.5H7.6v3.8H10V22h4v-9.7h3l.4-3.8H14Z"/></svg></a>
+        <a href="https://www.instagram.com/grupovilaporto/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="group-strip">
+    <div class="container">
+      <h3>Empresas do Grupo</h3>
+      <div class="group-logos">
+        <a href="http://vilaporto.com/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-vilaporto.webp" alt="Vila Porto International Business" loading="lazy"></a>
+        <a href="http://oficinadenegocios.srv.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-oficina.webp" alt="Oficina de Negócios" loading="lazy"></a>
+        <a href="https://www.cdlsenhoradapenha.com.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-cdl.webp" alt="CDL Senhora da Penha" loading="lazy"></a>
+        <a href="https://vilaportovinhos.com.br/" target="_blank" rel="noopener"><img src="assets/img/grupo/emp-vpvinhos.webp" alt="Vila Porto Vinhos" loading="lazy"></a>
+        <a href="index.html"><img src="assets/img/grupo/emp-vdv.webp" alt="Ville du Vin" loading="lazy"></a>
+        <span><img src="assets/img/grupo/emp-chefswine.webp" alt="Chef's Wine" loading="lazy"></span>
+        <span><img src="assets/img/grupo/emp-portodelivery.webp" alt="Porto Delivery" loading="lazy"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© Copyright Grupo Vila Porto - Todos os Direitos Reservados<small>Aprecie com moderação · Venda proibida para menores de 18 anos</small></div>
+</footer>
+
+<div class="wa-float">
+  <div class="wa-float__panel" role="dialog" aria-label="Compre pelo WhatsApp">
+    <h4>Compre pelo WhatsApp</h4>
+    <p>Escolha a loja e fale direto com a nossa equipe.</p>
+    <a href="https://wa.me/5511991178801?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg><span><strong>Shopping Iguatemi (Alphaville)</strong><small>(11) 99117-8801</small></span></a>
+    <a href="https://wa.me/5511997049531?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ville%20du%20Vin%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg><span><strong>Loja Itaim Bibi</strong><small>(11) 99704-9531</small></span></a>
+  </div>
+  <button class="wa-float__btn" type="button" aria-label="Compre pelo WhatsApp" aria-expanded="false"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28Z"/></svg></button>
+</div>
+
+<script src="assets/data/produtos.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/catalogo.js"></script>
+</body>
+</html>
